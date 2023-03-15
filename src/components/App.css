@@ -2,8 +2,9 @@
   text-align: center;
 }
 
-.back-drop {
+.App {
   color: white;
+  background-color: black;
   height: 100vh;
   /* background: fixed; */
   background-image: url('https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/pokeball-rachel-cini.jpg');
