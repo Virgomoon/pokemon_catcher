@@ -1,11 +1,12 @@
-.App {
-  text-align: center;
-}
 
 .App {
+  text-align: center;
+  align-items: center;
   color: white;
-  background-color: black;
+  background-color: #000000;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
   /* background: fixed; */
   background-image: url('https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/pokeball-rachel-cini.jpg');
   background-repeat: no-repeat;
@@ -15,6 +16,42 @@
 
 .searchbar{
   background-color: #ff8c00;
+  display: flex;
+  justify-content: center;
+  height: 4em;
+  width: 60%;
+  margin: 15px;
+  border-radius: 15px;
+  
+}
+.input {
+  display: flex;
+  margin: 15px;
+  flex-grow: 1;
+}
+
+.input > button {
+  margin-left: 5px;
+  border-radius: 5px;
+  background-color: rgb(202, 26, 26);
+  color: white;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  justify-content: center;
+  background-color: rgb(202, 26, 26);
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 10px 5px;
+}
+
+.field{
+  display: flex;
+  border-radius: 5px;
+  flex: 1;
 }
 
 @keyframes App-logo-spin {
